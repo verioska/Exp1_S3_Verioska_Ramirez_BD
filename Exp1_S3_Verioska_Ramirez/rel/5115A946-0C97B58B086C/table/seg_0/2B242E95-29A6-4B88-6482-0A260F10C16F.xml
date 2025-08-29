@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B242E95-29A6-4B88-6482-0A260F10C16F" name="APODERADO">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>8942F1A1-271D-66FE-017D-EA3138F209F1</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_apoderado" id="4BAFBD92-DC50-15AE-0202-3CB91BCC8A9B">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>F67C86AF-D4CF-9404-11B9-8918AAD5D478</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="4AB4E1CA-05C2-07F0-F233-8E5927E7950B">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>A8AAD493-E654-25AC-1951-C97F8824E667</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="6B4A397A-BA20-024F-938B-11E400F9583D">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>3CCD562E-769F-352E-C896-5185CFE296C9</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="relacion_residente" id="62519F2C-E06A-5443-1D80-35C4E6B747B4">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>306944A0-969B-18FE-CF79-88CF90857A91</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BEFC530-7D26-1DE4-8D54-D3EFDC9C94A3" name="APODERADO_PK">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>B9377A2E-23B6-018D-28FF-24401EF2B28D</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BAFBD92-DC50-15AE-0202-3CB91BCC8A9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

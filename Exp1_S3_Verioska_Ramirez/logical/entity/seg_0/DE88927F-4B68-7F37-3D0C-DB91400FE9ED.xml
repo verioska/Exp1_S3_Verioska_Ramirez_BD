@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE88927F-4B68-7F37-3D0C-DB91400FE9ED" name="PERMANENTE">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 01:04:40 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>1273D95F-C40F-1AFB-5BF2-2F03DAB60945</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="historial clinico" id="5C322A64-70FB-8FB5-C146-1087608119DE">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 01:05:06 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C19EAD1-1A4E-F0E6-5136-83A5F15E6AAE" name="PERMANENTE PK">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 01:05:38 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C322A64-70FB-8FB5-C146-1087608119DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C4D63894-D836-6F78-46BA-3B14D5F6CE45" containerWithKeyObject="BAFF5205-2BF8-5C99-0752-C41A090F442C" localFKIndex="1D579CD0-89D2-FA7A-0DFD-1903B4CE1961" name="CONTRATO_APODERADO_FK">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>4EDCACD1-2D5A-22B1-B763-542794FD74CE</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<referredTableLongName>APODERADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B242E95-29A6-4B88-6482-0A260F10C16F</referredTableID>
+<keyObject>2BEFC530-7D26-1DE4-8D54-D3EFDC9C94A3</keyObject>
+<referredKeyID>2BEFC530-7D26-1DE4-8D54-D3EFDC9C94A3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_apoderado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

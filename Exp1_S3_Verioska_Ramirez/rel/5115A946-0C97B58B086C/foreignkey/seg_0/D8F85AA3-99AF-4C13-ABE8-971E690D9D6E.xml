@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D8F85AA3-99AF-4C13-ABE8-971E690D9D6E" containerWithKeyObject="C761AF01-8A9E-3EB5-4F08-45DCA3713525" localFKIndex="EC9E340D-EEB2-E276-A07B-369F3F14AC8A" name="ANEXO_CONTRATO_FK">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>C78F8AB6-345A-1197-A3DC-F0E898F0E7E0</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<referredTableLongName>CONTRATO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BAFF5205-2BF8-5C99-0752-C41A090F442C</referredTableID>
+<keyObject>98179B53-2EF7-30C5-589A-7A90F697F719</keyObject>
+<referredKeyID>98179B53-2EF7-30C5-589A-7A90F697F719</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_contrato</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

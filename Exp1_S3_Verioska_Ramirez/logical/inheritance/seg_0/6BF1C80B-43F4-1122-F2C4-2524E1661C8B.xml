@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_4" directorySegmentName="seg_0" id="6BF1C80B-43F4-1122-F2C4-2524E1661C8B">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 01:11:55 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>44A3E895-DC95-31C5-7561-CD671BDE461B</sourceEntity>
+<targetEntity>51E036A6-AA64-82B2-0EA8-8265BA12F087</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

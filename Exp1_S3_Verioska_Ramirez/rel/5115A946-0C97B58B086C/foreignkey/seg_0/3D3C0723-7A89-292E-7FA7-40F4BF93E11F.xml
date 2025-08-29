@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3D3C0723-7A89-292E-7FA7-40F4BF93E11F" containerWithKeyObject="E72F033E-BF43-C0BD-41AB-DCE438B8DA55" localFKIndex="06C1597E-D962-6197-D81E-89D1A68309E3" name="PERMANENTE_RESIDENTE_FK">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>C2CD8386-CC80-75E0-E0B3-9F096F98B4EB</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<referredTableLongName>RESIDENTE</referredTableLongName>
+<arc>F1AAA5AF-34B9-51C8-982C-0E2A4E7C8B7C</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2BDED403-3CA3-F5BD-55E7-7774DB2EA6BA</referredTableID>
+<keyObject>EF51DECE-DCF8-4F54-8317-1E08C187A2BA</keyObject>
+<referredKeyID>EF51DECE-DCF8-4F54-8317-1E08C187A2BA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>dni</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

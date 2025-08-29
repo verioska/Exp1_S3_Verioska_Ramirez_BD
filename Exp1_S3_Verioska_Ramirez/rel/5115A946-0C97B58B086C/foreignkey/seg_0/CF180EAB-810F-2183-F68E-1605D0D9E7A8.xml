@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF180EAB-810F-2183-F68E-1605D0D9E7A8" containerWithKeyObject="95268844-BAF8-8211-3090-B1718069776E" localFKIndex="8D47E6A8-B393-727E-E4C2-2C2003B13B4E" name="Relation_8_ANEXO_FK">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>BAB26DF4-4A70-F79B-A728-A3796269B090</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<referredTableLongName>ANEXO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C761AF01-8A9E-3EB5-4F08-45DCA3713525</referredTableID>
+<keyObject>3E60388B-7AC7-2DCD-CE8A-07A364EF7F08</keyObject>
+<referredKeyID>3E60388B-7AC7-2DCD-CE8A-07A364EF7F08</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>residente_incluido,CONTRATO_ID_contrato</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

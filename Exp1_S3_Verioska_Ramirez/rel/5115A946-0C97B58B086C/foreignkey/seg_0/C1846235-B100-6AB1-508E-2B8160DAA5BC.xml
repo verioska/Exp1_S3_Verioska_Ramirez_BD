@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C1846235-B100-6AB1-508E-2B8160DAA5BC" containerWithKeyObject="0AFC48E6-1360-F29D-885B-4450985F5976" localFKIndex="4C2E49DC-2EF2-C6D3-A350-8AB7684C7413" name="HABITACION_RESIDENCIA_FK">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>CC3E3362-61D9-BDCC-0592-C9741072E9A0</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<referredTableLongName>RESIDENCIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7428096A-4A2C-3FA5-E6E0-86D15759E0BE</referredTableID>
+<keyObject>DC5050B0-E97C-491A-0451-4CA2677F148A</keyObject>
+<referredKeyID>DC5050B0-E97C-491A-0451-4CA2677F148A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_residencia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

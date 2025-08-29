@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Exp1_S3_Verioska_Ramirez" id="9498CFEA-E880-A3C6-D855-FBBD83920F11" version="3.5">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-28 23:46:11 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9498CFEA-E880-A3C6-D855-FBBD83920F11</designId>
+</OSDM_Design>

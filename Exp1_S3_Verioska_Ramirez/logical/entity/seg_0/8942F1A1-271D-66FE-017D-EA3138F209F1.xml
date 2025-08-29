@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8942F1A1-271D-66FE-017D-EA3138F209F1" name="APODERADO">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-28 23:59:35 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id apoderado" id="F67C86AF-D4CF-9404-11B9-8918AAD5D478">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 00:30:44 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="A8AAD493-E654-25AC-1951-C97F8824E667">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 00:31:37 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="3CCD562E-769F-352E-C896-5185CFE296C9">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 00:31:48 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="relacion residente" id="306944A0-969B-18FE-CF79-88CF90857A91">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 00:31:59 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9377A2E-23B6-018D-28FF-24401EF2B28D" name="APODERADO PK">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 00:30:52 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F67C86AF-D4CF-9404-11B9-8918AAD5D478</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

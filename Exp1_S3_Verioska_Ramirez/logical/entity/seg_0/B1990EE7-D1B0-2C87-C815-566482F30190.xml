@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1990EE7-D1B0-2C87-C815-566482F30190" name="ANEXO">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 00:00:10 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="residente incluido" id="4FBB9A32-9891-86DF-4709-85D88B975B57">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 00:20:45 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha ingreso" id="9685A738-492C-CE47-7FA6-FDC90005C25B">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 00:21:11 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha termino" id="7FFC4FC7-4042-7DAB-83DD-2DF001C81DD1">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 00:21:32 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observaciones" id="E166948F-55D8-3443-81BD-8B658C23CAF8">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 00:21:53 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID contrato" id="7176007C-C12C-E7C9-F3D0-C6C87B0D02BE">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 01:47:42 UTC</createdTime>
+<generatorID>C78F8AB6-345A-1197-A3DC-F0E898F0E7E0</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<referedAttribute>5033AFDC-F279-0F91-4A5D-FC506538BB39</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="094B244C-1033-F2F1-F3C2-028F33C40767" name="ANEXO PK">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 00:14:24 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FBB9A32-9891-86DF-4709-85D88B975B57</attributeRef>
+<attributeRef>7176007C-C12C-E7C9-F3D0-C6C87B0D02BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AFC48E6-1360-F29D-885B-4450985F5976" name="HABITACION">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>7C709F6E-9A41-B17E-11A8-F67FF34886B1</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_habitacion" id="539BB916-D0AE-EAF3-247C-F465A9F32E7D">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>414E092F-C6D2-AC75-5DC2-2CD3D5A26067</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_habitacion" id="C2BC77DE-E295-C73F-3314-3F65DB2F8651">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>D9DD71B2-DFCE-2316-687F-B408FB378C3B</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_habitacion" id="33BD0526-984B-5085-5785-204D0F51FA52">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>32984726-3D3D-BE7D-B4DC-DF65954E9959</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_residencia" id="4B9FEE22-6E0B-AB31-8C12-F952FD98319C">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>245F0D38-435E-47B3-0EE2-6911C6CC2238</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESIDENTE_dni" id="BAF54166-2843-3DDA-BAD8-30A2EA0305B1">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>A6797552-4361-F443-A32D-342EA418F37A</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8524A6C4-53EA-4A7C-72D2-1550647545D6" referredColumn="C3E563F0-D1F9-A5AB-9317-1DCCDFF2871F"/>
+</associations>
+</Column>
+<Column name="RESIDENCIA_id_residencia" id="0EEB7B2D-FFBB-A017-DA7F-61B756C93C56">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>C25E29EA-998D-3291-3DAB-9B86207D96D8</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1846235-B100-6AB1-508E-2B8160DAA5BC" referredColumn="BC054D91-025B-7774-A5BD-7A6593B1F29B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="377FC00A-EE91-9A00-F376-32B101FEAB72" name="HABITACION_PK">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>5F769C7C-011C-559D-6672-FDBCF04E3DCC</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="539BB916-D0AE-EAF3-247C-F465A9F32E7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5271A68B-CE1D-390F-E16E-05B47E6226AF" name="HABITACION__IDX">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>81F46D04-ADEF-414D-3DC0-293851A6E671</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BAF54166-2843-3DDA-BAD8-30A2EA0305B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75D73895-C572-A69C-5FD1-05308EAF9DE1" name="HABITACION_RESIDENTE_FK">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>81F46D04-ADEF-414D-3DC0-293851A6E671</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAF54166-2843-3DDA-BAD8-30A2EA0305B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C2E49DC-2EF2-C6D3-A350-8AB7684C7413" name="HABITACION_RESIDENCIA_FK">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 02:05:37 UTC</createdTime>
+<generatorID>CC3E3362-61D9-BDCC-0592-C9741072E9A0</generatorID>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EEB7B2D-FFBB-A017-DA7F-61B756C93C56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

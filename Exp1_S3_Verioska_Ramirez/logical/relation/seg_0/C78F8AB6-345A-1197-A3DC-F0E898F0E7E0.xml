@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANEXO CONTRATO FK" directorySegmentName="seg_0" id="C78F8AB6-345A-1197-A3DC-F0E898F0E7E0">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 01:47:42 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<sourcePk>4569EA3B-1C85-7710-576C-83302E60EB2B</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Un contrato</nameOnSource>
+<nameOnTarget>Muchos</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1BA6F77C-147C-2C93-C93A-F62118B961C8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B1990EE7-D1B0-2C87-C815-566482F30190</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PERSONAL RESIDENCIA FK" directorySegmentName="seg_0" id="AC654E68-1221-CB46-76C8-4240A021A46D">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 01:26:00 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<sourcePk>CAED9DEF-6988-8EB0-26CB-D360523E345D</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Una residencia</nameOnSource>
+<nameOnTarget>Mucho personal</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5C5F1B21-3DB2-0343-48FF-F7D6BFF24A25</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>44A3E895-DC95-31C5-7561-CD671BDE461B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

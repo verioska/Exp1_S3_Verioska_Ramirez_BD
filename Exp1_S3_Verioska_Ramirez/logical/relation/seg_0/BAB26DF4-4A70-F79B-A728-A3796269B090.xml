@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="BAB26DF4-4A70-F79B-A728-A3796269B090">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 01:48:18 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Residente</nameOnSource>
+<nameOnTarget>Muchos</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1273D95F-C40F-1AFB-5BF2-2F03DAB60945</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B1990EE7-D1B0-2C87-C815-566482F30190</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

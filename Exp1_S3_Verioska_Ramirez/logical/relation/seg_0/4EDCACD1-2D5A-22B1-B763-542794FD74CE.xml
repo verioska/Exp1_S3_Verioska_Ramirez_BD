@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTRATO APODERADO FK" directorySegmentName="seg_0" id="4EDCACD1-2D5A-22B1-B763-542794FD74CE">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-29 01:45:14 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<engineerTo>
+<item key="5115A946-A3FD-52F0-EE72-0C97B58B086C" value="true"/>
+</engineerTo>
+<sourcePk>B9377A2E-23B6-018D-28FF-24401EF2B28D</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Apoderado</nameOnSource>
+<nameOnTarget>Muchos</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8942F1A1-271D-66FE-017D-EA3138F209F1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1BA6F77C-147C-2C93-C93A-F62118B961C8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="5115A946-A3FD-52F0-EE72-0C97B58B086C" mainViewID="53966FA0-AEA0-A8F7-658E-2B1B9E877D5C">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-28 23:46:11 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

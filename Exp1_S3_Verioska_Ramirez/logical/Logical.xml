@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0B7DE71D-363E-D58B-50C1-F984580F9CA5" mainViewID="09ADD2D8-8156-170D-E3D0-7268E9C470C2">
+<createdBy>verioska</createdBy>
+<createdTime>2025-08-28 23:46:11 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Verioska_Ramirez</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
